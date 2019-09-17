@@ -1,6 +1,7 @@
 
 
 def generate():
+	# generates three files of different sizes to test
 	data = open("generated_points_100.txt", 'w')
 	data.write("x, y, z, r, g, b\n")
 	for x in range(-5, 6):
